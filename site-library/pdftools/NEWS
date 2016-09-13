@@ -1,0 +1,19 @@
+0.5
+  - Rebuild poppler on Windows to support PDF rendering
+
+0.4
+  - Update Homebrew URL in configure script.
+  - Fix autobrew (rename libopenjepg -> libopenjp2)
+  - Update libpoppler 0.46 for Windows
+
+0.3
+  - Update libpoppler 0.42 for Windows
+  - Use the COMPILED_BY variable on Windows to support R 3.3
+
+0.2
+  - Switch pdf_render_page to 1 based indexing
+  - Fix for red/blue channel mixup in pdf_render_page
+  - Update example to use local PDF file
+
+0.1
+  - Initial release
