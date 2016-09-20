@@ -5,3 +5,17 @@ Is a version of R statistics that have all their static libraries within the sam
 ## Homepage
 
 http://nafiux.github.io/portableR/
+
+## Usage
+
+```bash
+./run.sh
+```
+
+```R
+library(pdftools)
+wdir = 'working/directory/with/pdfs'
+ifile = 'the-pdf-fle.pdf'
+txt <- pdf_text(paste(wdir, ifile))
+write.csv(txt, file=paste(wdir, ifile, '_converted.csv'))
+```
