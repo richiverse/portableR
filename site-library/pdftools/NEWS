@@ -1,3 +1,18 @@
+1.3
+  - Improve support for reading passworded and encyrpted pdf files (+ unit tests)
+  - Support direct conversion from pdf to png, jpeg, tiff (+ unit tests)
+  - Switch to Rcpp automatic symbol registration
+  - Tweak autobrew script for legacy Mavericks builds
+
+1.2
+  - Fix autobrew for OSX Mavericks
+
+1.1
+  - Extract autobrew script to separate repo
+
+1.0
+  - Add workaround for poppler landscape truncation bug (fixes #7)
+
 0.5
   - Rebuild poppler on Windows to support PDF rendering
 
